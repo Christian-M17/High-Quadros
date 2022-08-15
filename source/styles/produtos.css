@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,100;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,100;1,400;1,900&display=swap');
+
+
+*{clear: none}
+
+body{
+    background-color: #FFE53B;
+    overflow-x: hidden;
+    margin: 0 0;}
+
+header{
+    z-index: 1000;
+    position: fixed; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0;
+    width: 100vw;
+    background-color: rgb(37, 37, 37, 0.8);}
+
+header div{padding: 0 5vh}
+
+#logopequena img {width: 13vw;}
+
+nav{font-family: 'roboto', sans-serif;
+font-style: italic;
+font-weight: 910;}
+
+ul{ padding: 0em 5vw;
+    list-style: none;
+    display: flex}
+
+li{ font-size: 2.3vh;
+    color: white;
+    padding: 0 1em}
+
+li a:hover{color: gray}
+
+li a{color: white;
+    transition: color 0.3s;
+    text-decoration: none;}
+
+/* Fim do Header */
+
+#black{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 14.5vh;
+    background-color: black;
+    width: 100%;}
+
+form{padding: 2vh 5vh}
+
+#pesquisa{
+    margin-left: 1em;
+    color: rgb(0, 0, 0, 0.5);
+    background-image: url(../images/busca.png);
+    background-position: 0.5vw 1.5vh;
+    background-size: 2vw 3vh;
+    background-repeat: no-repeat;
+    background-color: #FFE53B;
+    font-family:'roboto', sans-serif ;
+    border-radius: 1em;
+    padding: 1.5vh;
+    padding-left: 7vh;
+    font-size: 2.5vh;
+    font-style: italic;
+    border: none;}
+
+
+/*produtos */
+#produtos{display: grid;
+    
+    padding-top: 20vh;
+    padding-left: 13vh;
+    column-gap: 1vh; ;
+grid-template-columns: 1fr 1fr 1fr}
+
+.produto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 45vh;
+}
+
+.produto img {width: 30vh;}
+
+.produto h3 {color: black;
+    padding-bottom: -10vh;
+    text-align: center;
+    font-size: 3vh;
+    font-family:'roboto', sans-serif ;}
+
+.produto h4{
+    position: relative;
+    bottom: 3vh;
+    padding-top: -10vh;
+    color: black;
+    font-family:'roboto', sans-serif ;
+text-align: center};
+
+.old{font-size: 1vh;}
+
+.new{font-size: 3vh}
+
+.produto button{color: #FFE53B;
+    position: relative;
+    bottom: 3vh;
+    font-family:'roboto', sans-serif ;
+    font-style: italic;
+    font-weight: 910;
+    border: none;
+    border-radius: 1em;
+    padding: 0.3em 2em;
+    font-size: 3vh;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: black ;}
+
+.produto button:hover{background-color: #232423;}
