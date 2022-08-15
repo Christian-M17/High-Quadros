@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,100;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,100;1,400;1,900&display=swap');
+
+
+body{
+    overflow-x: hidden;
+    margin: 0 0}
+
+header{
+    z-index: 1000;
+    position: fixed; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0;
+    width: 100vw;
+    background-color: rgb(37, 37, 37, 0.8);}
+
+header div{padding: 0 5vh}
+
+#logopequena img {width: 13vw;}
+
+nav{font-family: 'roboto', sans-serif;
+font-style: italic;
+font-weight: 910;}
+
+ul{ padding: 0em 5vw;
+    list-style: none;
+    display: flex}
+
+li{ font-size: 2.3vh;
+    color: white;
+    padding: 0 1em}
+
+li a:hover{color: gray}
+
+li a{color: white;
+    transition: color 0.3s;
+    text-decoration: none;}
+
+/* Fim do Header */
+
+
+#background{
+    position: relative;
+    z-index: -10;
+    width: 100%;}
+
+#conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 0 0;
+    position: relative;
+    bottom: 75vh;
+    z-index: 10;
+}
+
+#conteudo img{width: 40vw;}
+
+h1{font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 7.5vh;
+    font-style: italic;
+    text-align: center;
+    color: white}
+
+h1 button{color: black;
+    font-family:'roboto', sans-serif ;
+    font-style: italic;
+    font-weight: 400;
+    border: none;
+    border-radius: 1em;
+    padding: 0.3em 2em;
+    font-size: 0.7em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #FFE53B ;}
+
+h1 button:hover{background-color:#d1bf38 ;}
+
