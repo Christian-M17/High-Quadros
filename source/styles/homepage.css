@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,100;1,400;1,900&display=swap');
 
 
+*{clear: none}
+
 body{
     overflow-x: hidden;
-    margin: 0 0}
+    margin: 0 0;}
 
 header{
     z-index: 1000;
@@ -51,8 +53,7 @@ li a{color: white;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     padding: 0 0;
-    position: relative;
-    bottom: 75vh;
+    margin-top: -90vh;
     z-index: 10;
 }
 
@@ -79,3 +80,102 @@ h1 button{color: black;
 
 h1 button:hover{background-color:#d1bf38 ;}
 
+main{
+    margin-top: 10vh;
+    background-color: #252525;}
+
+h2{ display: flex;
+    padding: 2vh;
+    font-family:'roboto', sans-serif ;
+    font-style: italic;
+    font-size: 6vh;
+    color:white}
+
+#top{display: flex;
+
+padding-right: 30vh;
+align-items: center;
+justify-content: flex-end;}
+
+#pesquisa{
+    margin-left: 1em;
+    color: rgb(0, 0, 0, 0.5);
+    background-image: url(../images/busca.png);
+    background-position: 1vh 1vh;
+    background-repeat: no-repeat;
+    background-color: #FFE53B;
+    font-family:'roboto', sans-serif ;
+    border-radius: 1em;
+    padding: 1.5vh;
+    padding-left: 8vh;
+    font-size: 4vh;
+    font-style: italic;
+    border: none;}
+
+/* Produtos */
+
+#produtos{display: grid;
+    padding-left: 13vh;
+    column-gap: 1vh; ;
+grid-template-columns: 1fr 1fr 1fr}
+
+.produto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 45vh;
+}
+
+.produto img {width: 30vh;}
+
+.produto h3 {color: white;
+    padding-bottom: -10vh;
+    text-align: center;
+    font-size: 3vh;
+    font-family:'roboto', sans-serif ;}
+
+.produto h4{
+    position: relative;
+    bottom: 3vh;
+    padding-top: -10vh;
+    color: white;
+    font-family:'roboto', sans-serif ;
+text-align: center};
+
+.old{font-size: 1vh;}
+
+.new{font-size: 3vh}
+
+.produto button{color: black;
+    position: relative;
+    bottom: 3vh;
+    font-family:'roboto', sans-serif ;
+    font-style: italic;
+    font-weight: 910;
+    border: none;
+    border-radius: 1em;
+    padding: 0.3em 2em;
+    font-size: 3vh;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #FFE53B ;}
+
+.produto button:hover{background-color: #d1bf38;}
+
+/*Fim de produtos*/
+
+#mais{
+cursor: pointer;    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+
+#mais h3{
+    padding-bottom: -10em;
+    text-decoration: underline;
+    color:#FFE53B;
+    font-style: italic ;
+    font-weight: 400;
+    font-family:'roboto', sans-serif ;}
