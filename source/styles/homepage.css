@@ -115,7 +115,7 @@ justify-content: flex-end;}
 /* Produtos */
 
 #produtos{display: grid;
-    padding-left: 13vh;
+    padding-left: 8vw;
     column-gap: 1vh; ;
 grid-template-columns: 1fr 1fr 1fr}
 
