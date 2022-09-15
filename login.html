@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="source/styles/login.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>High-Quadros</title>
+</head>
+<body>
+    <header>
+        <div id="logopequena"><a href="index.html"><img src="source/Images/logotext.png"></a> </div>
+        <nav>
+            <ul>
+                <li><a href="quadros.html">QUADROS</a></li>
+                <li><a href="figures.html">ACTION-FIGURES</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li><a href="sobre.html">SOBRE NÓS</a></li>
+                <li id="login"><a href="login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+    <h1>Nome Completo</h1>
+    <input type="text" placeholder="Seu Nome" id="nome" maxlength="40">
+    
+    <h1>Email</h1>
+    <input type="text" placeholder="seuemail@email.com" id="email" maxlength="80">
+    
+    <h1>Senha</h1>
+    <input type="password" placeholder="Senha" id="senha">
+    <h1>Confirmar senha</h1>
+    <input type="password" placeholder="Senha" id="confirmarsenha">
+
+    <h1>Telefone</h1>
+    <input type="tel" placeholder="(31)99999-9999" id="telefone" oninput="telefone_mascara()" maxlength="14">
+    <br>
+    <input id="enviar" type="button" value="Cadastrar" onclick="confirmarSenha()">
+
+    
+     </form>
+</body>
+<script src="script.js"></script>
+</html>

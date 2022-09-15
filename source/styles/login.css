@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,100;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,100;1,400;1,900&display=swap');
+
+
+
+
+body{
+    overflow-x: hidden;
+    background-color: #E1CA34;
+    margin: 0 0;}
+
+header{
+    z-index: 1000;
+    position: fixed; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0;
+    width: 100vw;
+    background-color: rgb(37, 37, 37, 0.8);}
+
+header div{padding: 0 5vh}
+
+#logopequena img {width: 13vw;}
+
+nav{font-family: 'roboto', sans-serif;
+font-style: italic;
+font-weight: 910;}
+
+ul{ padding: 0em 5vw;
+    list-style: none;
+    display: flex}
+
+li{ font-size: 2.3vh;
+    color: white;
+    padding: 0 1em}
+
+li a:hover{color: gray}
+
+li a{color: white;
+    transition: color 0.3s;
+    text-decoration: none;}
+
+
+#login a {color:#FFE53B }    
+
+#login a:hover {color:gray }
+/* Fim do Header */
+
+h1{font-family: 'roboto', sans-serif;
+    font-weight: 600;
+    font-size: 3vh;    
+    color: white}
+    form{
+    text-align: left;
+    padding: 12vh 3vw 0 1vw}
+
+input{
+    border: 0;
+    border-radius: 5px;
+    background-color: #252525 ;
+    color: #FFE53B;
+    font-size: 3vh;}
+
+input::placeholder{color:rgb(186, 174, 2, 0.8)}
+
+#enviar{
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 1em;
+    font-size: 2vh;
+    color: #FFE53B;
+background-color: #252525;}
+#enviar:hover{
+    cursor: pointer;
+    background-color: #707070;}

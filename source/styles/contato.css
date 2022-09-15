@@ -40,6 +40,10 @@ li a:hover{color: gray}
 li a{color: white;
     transition: color 0.3s;
     text-decoration: none;}
+
+#login a {color:#FFE53B }    
+
+#login a:hover {color:gray }
 /* Fim do Header */
 
 main{display: grid;
